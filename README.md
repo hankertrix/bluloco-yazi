@@ -16,6 +16,12 @@ Click the links below for the light and dark flavours respectively.
 - [bluloco-light.yazi](./bluloco-light.yazi/README.md)
 - [bluloco-dark.yazi](./bluloco-dark.yazi/README.md)
 
+## Licence
+
+Everything in this repository is licensed under the
+[GNU Lesser General Public License (LGPL)](LICENSE).
+Check the [`LICENSE`](LICENSE) file for more information.
+
 <!-- Links -->
 
 [Yazi]: https://github.com/sxyazi/yazi

@@ -35,12 +35,19 @@ Note that this is a **dark** theme.
 dark = "bluloco-dark"
 ```
 
+## Licence
+
+Both the flavour and the included `tmtheme` is licensed under the
+[GNU Lesser General Public License (LGPL)](LICENSE).
+Check the [`LICENSE`](LICENSE) and [`LICENSE-tmtheme`](LICENSE-tmtheme)
+files for more information.
+
 <!-- Links -->
 
 [Yazi]: https://github.com/sxyazi/yazi
 
 <!-- Screenshots -->
 
-[files]: placeholder
-[spotter]: placeholder
-[help]: placeholder
+[files]: https://github.com/user-attachments/assets/06e25947-c941-4fb9-868e-f35c244ae0c4
+[spotter]: https://github.com/user-attachments/assets/a5389989-83bb-42f3-8db0-972e9212b2d2
+[help]: https://github.com/user-attachments/assets/06795a64-2601-4ba0-865a-dab996d1fa69
