@@ -38,7 +38,7 @@ light = "bluloco-light"
 ## Licence
 
 Both the flavour and the included `tmtheme` is licensed under the
-[GNU Lesser General Public License (LGPL)](LICENSE).
+[GNU Lesser General Public License v3 (LGPL v3)](LICENSE).
 Check the [`LICENSE`](LICENSE) and [`LICENSE-tmtheme`](LICENSE-tmtheme)
 files for more information.
 

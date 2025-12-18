@@ -19,7 +19,7 @@ Click the links below for the light and dark flavours respectively.
 ## Licence
 
 Everything in this repository is licensed under the
-[GNU Lesser General Public License (LGPL)](LICENSE).
+[GNU Lesser General Public License v3 (LGPL v3)](LICENSE).
 Check the [`LICENSE`](LICENSE) file for more information.
 
 <!-- Links -->
