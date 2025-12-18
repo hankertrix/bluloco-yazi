@@ -1,6 +1,6 @@
 # Bluloco flavours for [Yazi]
 
-Bluloco is a theme originally created by @uloco for
+Bluloco is a theme originally created by [@uloco] for
 Neovim ([bluloco.nvim]) and VSCode
 ([Bluloco Light][theme-bluloco-light], [Bluloco Dark][theme-bluloco-dark]).
 
@@ -25,6 +25,7 @@ Check the [`LICENSE`](LICENSE) file for more information.
 <!-- Links -->
 
 [Yazi]: https://github.com/sxyazi/yazi
+[@uloco]: https://github.com/uloco
 [bluloco.nvim]: https://github.com/uloco/bluloco.nvim
 [theme-bluloco-dark]: https://github.com/uloco/theme-bluloco-dark
 [theme-bluloco-light]: https://github.com/uloco/theme-bluloco-light

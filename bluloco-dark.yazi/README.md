@@ -4,15 +4,15 @@
 
 Files:
 
-[files]
+![File list][files]
 
 Spotter:
 
-[spotter]
+![Spotter][spotter]
 
 Help:
 
-[help]
+![Help menu][help]
 
 ## Installation
 
