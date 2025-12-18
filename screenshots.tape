@@ -13,6 +13,12 @@ Set Margin 0
 # Open Yazi
 Type "yazi" Enter
 
+# Wait a while
+Sleep 200ms
+
+# Search for HTML to hover over the HTML file
+Type "/html" Enter
+
 # Screenshot the file list
 Screenshot ../screenshots/files-dark.png
 

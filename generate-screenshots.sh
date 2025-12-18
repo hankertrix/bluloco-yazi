@@ -77,6 +77,16 @@ generate_screenshots() {
 	rm -r $SHOWCASE_DIRECTORY
 }
 
+# Place the preview image in the correct place
+place_previews() {
+
+	# Place the preview images into the theme directories
+	for theme in "light" "dark"; do
+		cp "$SCREENSHOTS_DIRECTORY/files-$theme.png" \
+			"bluloco-$theme.yazi/preview.png"
+	done
+}
+
 # Main function
 main() {
 
@@ -85,6 +95,9 @@ main() {
 
 	# Generate the screenshots
 	generate_screenshots
+
+	# Place the preview images
+	place_previews
 }
 
 # Run the main function

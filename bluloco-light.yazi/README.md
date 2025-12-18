@@ -4,7 +4,7 @@
 
 Files:
 
-![File list][files]
+![File list](preview.png)
 
 Spotter:
 
@@ -48,6 +48,5 @@ files for more information.
 
 <!-- Screenshots -->
 
-[files]: https://github.com/user-attachments/assets/ee7f725a-dcde-439e-9a75-166c81d46720
 [spotter]: https://github.com/user-attachments/assets/918d96aa-1309-4df7-a0c1-040f3ef4cb0c
 [help]: https://github.com/user-attachments/assets/d3ab9f4e-1406-40ae-8ca2-a58ba4c70e64
