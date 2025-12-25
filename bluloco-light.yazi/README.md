@@ -48,5 +48,5 @@ files for more information.
 
 <!-- Screenshots -->
 
-[spotter]: https://github.com/user-attachments/assets/918d96aa-1309-4df7-a0c1-040f3ef4cb0c
-[help]: https://github.com/user-attachments/assets/d3ab9f4e-1406-40ae-8ca2-a58ba4c70e64
+[spotter]: https://github.com/user-attachments/assets/a030397a-b8b0-4cea-8ce0-a2205e2326d4
+[help]: https://github.com/user-attachments/assets/a5b168b6-3860-423b-9a3e-315007a21017
