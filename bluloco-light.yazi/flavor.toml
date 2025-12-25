@@ -42,12 +42,15 @@ bg = "reset"
 bold = true
 italic = true
 
+
 # Indicator
 [indicator]
+parent = { reversed = true }
 current = { reversed = true }
 preview = { underline = true }
+padding = { open = "█", close = "█" }
 
-
+# Tabs
 [tabs]
 active = { fg = "#383A42", bg = "#F9F9F9" }
 inactive = { fg = "#A0A1A7", bg = "#DCDCDC" }
