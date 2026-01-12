@@ -198,6 +198,9 @@ rules = [
 	# Documents
 	{ mime = "application/{pdf,doc,rtf}", fg = "#50ACAE" },
 
+	# Virtual file system
+	{ mime = "vfs/{absent,stale}", fg = "#636D83" },
+
 	# Special files
 	{ url = "*", is = "orphan", fg = "#282C34", bg = "#FF2E3F" },
 	{ url = "*", is = "exec", fg = "#3FC56B" },
