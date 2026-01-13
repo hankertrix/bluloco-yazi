@@ -213,3 +213,22 @@ rules = [
 	{ url = "*", fg = "#383A42" },
 	{ url = "*/", fg = "#0098DD" },
 ]
+
+[icon]
+prepend_conds = [{ if = "dir", text = "", fg = "#0098DD" }]
+prepend_dirs = [
+	{ name = ".config", text = "", fg = "#0098DD" },
+	{ name = ".git", text = "", fg = "#0098DD" },
+	{ name = ".github", text = "", fg = "#0098DD" },
+	{ name = ".npm", text = "", fg = "#0098DD" },
+	{ name = "Desktop", text = "", fg = "#0098DD" },
+	{ name = "Development", text = "", fg = "#0098DD" },
+	{ name = "Documents", text = "", fg = "#0098DD" },
+	{ name = "Downloads", text = "", fg = "#0098DD" },
+	{ name = "Library", text = "", fg = "#0098DD" },
+	{ name = "Movies", text = "", fg = "#0098DD" },
+	{ name = "Music", text = "", fg = "#0098DD" },
+	{ name = "Pictures", text = "", fg = "#0098DD" },
+	{ name = "Public", text = "", fg = "#0098DD" },
+	{ name = "Videos", text = "", fg = "#0098DD" },
+]
