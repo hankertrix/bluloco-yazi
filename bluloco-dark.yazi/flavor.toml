@@ -214,7 +214,11 @@ rules = [
 ]
 
 [icon]
-prepend_conds = [{ if = "dir", text = "", fg = "#10B1FE" }]
+prepend_conds = [
+	{ if = "dir & hovered", text = "", fg = "#10B1FE" },
+	{ if = "dir", text = "", fg = "#10B1FE" },
+]
+
 prepend_dirs = [
 	{ name = ".config", text = "", fg = "#10B1FE" },
 	{ name = ".git", text = "", fg = "#10B1FE" },
@@ -231,3 +235,16 @@ prepend_dirs = [
 	{ name = "Public", text = "", fg = "#10B1FE" },
 	{ name = "Videos", text = "", fg = "#10B1FE" },
 ]
+
+
+# Plugins
+
+[git]
+modified = { fg = "#10B1FE" }
+added = { fg = "#3FC56B" }
+untracked = { fg = "#636D83" }
+ignored = { fg = "#636D83" }
+deleted = { fg = "#FF6480" }
+
+# Unmerged
+updated = { fg = "#FF78F8" }

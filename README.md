@@ -1,14 +1,14 @@
 # Bluloco flavours for [Yazi]
 
-Bluloco is a theme originally created by [@uloco] for
-Neovim ([bluloco.nvim]) and VSCode
-([Bluloco Light][theme-bluloco-light], [Bluloco Dark][theme-bluloco-dark]).
+Bluloco is a theme originally created by [@uloco] for Neovim ([bluloco.nvim])
+and VSCode ([Bluloco Light][theme-bluloco-light], [Bluloco
+Dark][theme-bluloco-dark]).
 
 These Yazi flavours attempt to be a faithful adaptation of the original theme,
-making use of the colours in the [Neovim theme][bluloco.nvim]
-to create these [Yazi] flavours.
+making use of the colours in the [Neovim theme][bluloco.nvim] to create these
+[Yazi] flavours.
 
-These flavours work on Yazi version 25.12.29 and above.
+These flavours work on Yazi version 26.5.6 and above.
 
 Click the links below for the light and dark flavours respectively.
 
@@ -18,8 +18,8 @@ Click the links below for the light and dark flavours respectively.
 ## Licence
 
 Everything in this repository is licensed under the
-[GNU Lesser General Public License v3 (LGPL v3)](LICENSE).
-Check the [`LICENSE`](LICENSE) file for more information.
+[GNU Lesser General Public License v3 (LGPL v3)](LICENSE). Check the
+[`LICENSE`](LICENSE) file for more information.
 
 <!-- Links -->
 
