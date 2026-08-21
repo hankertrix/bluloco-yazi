@@ -8,7 +8,7 @@ These Yazi flavours attempt to be a faithful adaptation of the original theme,
 making use of the colours in the [Neovim theme][bluloco.nvim] to create these
 [Yazi] flavours.
 
-These flavours work on Yazi version 26.5.6 and above.
+These flavours work on Yazi version 26.8.15 and above.
 
 Click the links below for the light and dark flavours respectively.
 

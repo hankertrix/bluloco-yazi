@@ -174,28 +174,29 @@ hovered = { bg = "#274670", bold = true }
 
 
 [help]
-on = { fg = "#FF936A" }
-run = { fg = "#7A82DA" }
-desc = { fg = "#10B1FE" }
-footer = { bg = "#282C34", fg = "#ABB2BF" }
+border = { fg = "#7A82DA" }
+chord = { fg = "#FF936A" }
+action = { fg = "#10B1FE" }
+hovered = { bg = "#274670", bold = true }
 
 
 [filetype]
 rules = [
+
 	# Images
-	{ mime = "image/*", fg = "#FF78F8" },
+	{ mime = "**/image/*", fg = "#FF78F8" },
 
 	# Videos
-	{ mime = "video/*", fg = "#9F7EFE" },
+	{ mime = "**/video/*", fg = "#9F7EFE" },
 
 	# Audio
-	{ mime = "audio/*", fg = "#8BCDEF" },
+	{ mime = "**/audio/*", fg = "#8BCDEF" },
 
 	# Archives
-	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#FF936A" },
+	{ mime = "**/application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#FF936A" },
 
 	# Documents
-	{ mime = "application/{pdf,doc,rtf}", fg = "#50ACAE" },
+	{ mime = "**/application/{pdf,doc,rtf}", fg = "#50ACAE" },
 
 	# Virtual file system
 	{ mime = "vfs/{absent,stale}", fg = "#636D83" },
@@ -240,7 +241,8 @@ prepend_dirs = [
 # Plugins
 
 [git]
-modified = { fg = "#10B1FE" }
+unstaged = { fg = "#10B1FE" }
+staged = { fg = "#10B1FE" }
 added = { fg = "#3FC56B" }
 untracked = { fg = "#636D83" }
 ignored = { fg = "#636D83" }
