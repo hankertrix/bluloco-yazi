@@ -22,7 +22,7 @@ create_files() {
 	curl -L https://picsum.photos/200 -o example.jpg
 
 	# Get a video
-	curl -L https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4 -o example.mp4
+	curl -L https://samplelib.com/preview/mp4/sample-5s.mp4 -o example.mp4
 
 	# Create a PDF file
 	magick example.jpg -auto-orient example.pdf
@@ -82,7 +82,7 @@ place_previews() {
 
 	# Place the preview images into the theme directories
 	for theme in "light" "dark"; do
-		cp "$SCREENSHOTS_DIRECTORY/files-$theme.png" \
+		mv "$SCREENSHOTS_DIRECTORY/files-$theme.png" \
 			"bluloco-$theme.yazi/preview.png"
 	done
 }
