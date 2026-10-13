@@ -61,7 +61,7 @@ generate_screenshots() {
 	vhs <"../$TAPE_FILE"
 
 	# The tape file for the light flavour
-	light_tape_file="${TAPE_FILE%.*}-light.tape"
+	light_tape_file="../${TAPE_FILE%.*}-light.tape"
 
 	# Replace the dark with light and generate the screenshots
 	sed 's/Dark/Light/' "../$TAPE_FILE" |
@@ -69,6 +69,9 @@ generate_screenshots() {
 
 	# Generate screenshots for the light flavour
 	vhs <"$light_tape_file"
+
+	# Remove the light tape file
+	rm "$light_tape_file"
 
 	# Exit the showcase directory
 	cd ..
